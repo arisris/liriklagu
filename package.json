@@ -1,0 +1,28 @@
+{
+  "name": "liriklagu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/app.js",
+  "netlify_demo": "https://azlyrics-57b7d8.netlify.app/",
+  "scripts": {
+    "dev": "wmr start --port 3000",
+    "serve": "wmr serve --port 3000",
+    "build": "wmr build",
+    "postbuild": "purgecss --config purgecss.config.js",
+    "mmwr": "wmr",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@prefresh/core": "^1.3.2",
+    "clsx": "^1.1.1",
+    "htm": "^3.0.4",
+    "preact": "^10.5.13",
+    "purgecss": "^4.0.3",
+    "wmr": "^1.6.0",
+    "wouter-preact": "^2.7.4"
+  }
+}
